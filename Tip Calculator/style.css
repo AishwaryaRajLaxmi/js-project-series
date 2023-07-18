@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 5px;
+  color: rgb(23, 23, 23);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(222, 212, 212);
+}
+
+body > div {
+  background: white;
+  border: 1px solid grey;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-box {
+  outline: none;
+  padding: 7px;
+  width: 100%;
+  min-width: 250px;
+}
+
+#tip-amount {
+  font-size: 14px;
+}
+
+#total-amount {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between !important;
+  margin-top: 10px;
+  gap: 30px;
+  transition: all 0.3s;
+}
+
+.btn {
+  border: none;
+  padding: 10px 24px;
+  color: white;
+  cursor: pointer;
+  /* position: absolute; */
+}
+
+.btn:hover {
+  top: 2px;
+  left: -2px;
+  position: relative;
+  box-shadow: 1px 2px 2px grey;
+}
+
+.calculate {
+  background-color: teal;
+  color: white;
+}
+
+.reset {
+  background: rgb(237, 50, 50);
+  padding: 10px 35px;
+}

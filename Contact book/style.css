@@ -1,0 +1,68 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #beb9b9;
+}
+
+.box{
+  background:white;
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 5px;
+  color:rgb(33, 32, 32)
+}
+
+.small-text{
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.contact-detail{
+  margin-top: 10px;
+}
+
+.input-box{
+  outline: none;
+  padding:8px;
+  }
+
+
+  #submit-btn{
+    padding:8px;
+    background: teal;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  .get-detail{
+    padding: 9.3px 64px;
+    cursor: pointer;
+    background: teal;
+    border: none;
+    color:white;
+  }
+
+  #display-contact{
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    background: rgb(228, 226, 226);
+    border-radius:10px;
+    display:none;
+
+  }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <h1 class="text-center">Contact Book</h1>
+      <div class="box">
+        <p class="small-text">Add New Contact</p>
+        <div class="input-group">
+          <input
+            type="text"
+            placeholder="Enter Contact Name "
+            id="contact-name"
+            class="input-box"
+          />
+          <input
+            type="text"
+            placeholder="Enter Contact Number"
+            id="contact-number"
+            class="input-box"
+          />
+        </div>
+        <button id="submit-btn">Submit</button>
+        <p id="display-notification"></p>
+        <hr />
+
+        <p class="small-text contact-detail">Get contact Details</p>
+        <div class="input-group">
+          <input
+            type="text"
+            placeholder="Enter Contact Name"
+            class="input-box"
+            id="get-contact-name"
+          />
+          <button class="get-detail" id="get-data">Get Details</button>
+
+          <p id="display-contact"></p>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
